@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandlineArg_Exercise", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Propertiesinc#_Exercise", "Propertiesinc#_Exercise\Propertiesinc#_Exercise.csproj", "{C9EA96DC-AAE9-4532-A720-CC6AEF2B01DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors_Exercise", "Constructors_Exercise\Constructors_Exercise.csproj", "{525FC460-198C-4857-AB52-0D6C021CD1AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{C9EA96DC-AAE9-4532-A720-CC6AEF2B01DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9EA96DC-AAE9-4532-A720-CC6AEF2B01DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9EA96DC-AAE9-4532-A720-CC6AEF2B01DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525FC460-198C-4857-AB52-0D6C021CD1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525FC460-198C-4857-AB52-0D6C021CD1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525FC460-198C-4857-AB52-0D6C021CD1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525FC460-198C-4857-AB52-0D6C021CD1AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
