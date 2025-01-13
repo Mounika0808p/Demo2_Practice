@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation_Exercise", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction_Exercise", "Abstraction_Exercise\Abstraction_Exercise.csproj", "{9C07A341-57FF-4A34-BC4B-F462624C4013}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism_Exercise", "Polymorphism_Exercise\Polymorphism_Exercise.csproj", "{AEC2ED81-4A45-4D51-B8B2-1CAFF5BEBD49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{9C07A341-57FF-4A34-BC4B-F462624C4013}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C07A341-57FF-4A34-BC4B-F462624C4013}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C07A341-57FF-4A34-BC4B-F462624C4013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC2ED81-4A45-4D51-B8B2-1CAFF5BEBD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC2ED81-4A45-4D51-B8B2-1CAFF5BEBD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC2ED81-4A45-4D51-B8B2-1CAFF5BEBD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC2ED81-4A45-4D51-B8B2-1CAFF5BEBD49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,5 +108,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8D8CB8E9-B2EE-4945-B21D-CD815BFA7A59} = {F5F5C038-AA16-4FFB-9647-9C45EFFD46EE}
 		{9C07A341-57FF-4A34-BC4B-F462624C4013} = {F5F5C038-AA16-4FFB-9647-9C45EFFD46EE}
+		{AEC2ED81-4A45-4D51-B8B2-1CAFF5BEBD49} = {F5F5C038-AA16-4FFB-9647-9C45EFFD46EE}
 	EndGlobalSection
 EndGlobal
