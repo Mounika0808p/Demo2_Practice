@@ -10,18 +10,23 @@ namespace Arrays_Execise
 
         // Multi-dimensional array
         public decimal[,] Salaries { get; set; } = new decimal[3, 5];
+
+
     }
+
+
+
 
     class Program
     {
         static void Main(string[] args)
         {
-           
+
             Employee employee = new Employee();
-            
+
             // Employee names from console
             Console.WriteLine("Enter the names of 3 employees = ");
-            
+
             for (int i = 0; i < employee.Names.Length; i++)
             {
                 Console.Write($"Employee {i + 1}: ");
@@ -35,10 +40,10 @@ namespace Arrays_Execise
                 Console.WriteLine($"Enter salaries for {employee.Names[i]}:");
 
                 for (int j = 0; j < 5; j++)
-                
+
                 {
                     Console.Write($"Month {j + 1}: ");
-                    
+
                     employee.Salaries[i, j] = Convert.ToDecimal(Console.ReadLine());
                 }
             }
@@ -60,7 +65,41 @@ namespace Arrays_Execise
 
                 Console.WriteLine($"Total Salary for 5 months : {totalSalary}");
                 Console.WriteLine($"Average Monthly Salary: {totalSalary / 5}");
+                Console.WriteLine();
             }
+
+
+
+
+            // jagged array 
+
+            Console.WriteLine("Jagged array example");
+
+            int[][] studentscore = new int[3][];
+
+            studentscore[0] = new int[] { 85, 90, 89 };         // Class A
+            studentscore[1] = new int[] { 89, 99 };            // Class B
+            studentscore[2] = new int[] { 96, 77, 89, 96 };      // Class C
+
+            // Display the jagged array
+            Console.WriteLine("Displaying student scores = ");
+            for (int i = 0; i < studentscore.Length; i++)
+            {
+                Console.Write($"Student {i + 1}: ");
+                for (int j = 0; j < studentscore[i].Length; j++)
+                {
+                    Console.Write(studentscore[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
+
+
+            Console.WriteLine("\nAccessing a specific student score ");
+            Console.WriteLine($"Score of Student[2][3]: {studentscore[2][3]}");
         }
+
+
+
+
     }
 }
